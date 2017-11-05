@@ -41,4 +41,3 @@ sed -i "/PasswordAuthentication yes/c PasswordAuthentication no" sshd_config
 sed -i "/RSAAuthentication yes/c RSAAuthentication yes" sshd_config
 sed -i "/PubkeyAuthentication yes/c PubkeyAuthentication yes" sshd_config
 service sshd restart
-service ssh restart
